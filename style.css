@@ -1,0 +1,12 @@
+.container
+{
+    display: flex;
+    /* Valores possiveis principais (center|stretch|flex-end|flex-start|baseline*/
+    align-content: flex-start;
+    flex-direction: row-reverse;
+
+    justify-content: space-around;
+    flex-wrap:wrap-reverse;
+
+    align-items: stretch;
+}
